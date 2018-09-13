@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my first project';
   name = 'Tebogo';
+  x=10;
+  y=25;
+  sum=this.x+this.y;
 }
